@@ -28,8 +28,14 @@ function App() {
         if (!image)
             alert('Please choose an image');
         else {
-            const imageFile = await compressImage(image, imageOptions);
-            setImage(imageFile);
+            try {
+                const imageFile = await compressImage(image, imageOptions);
+                setImage(imageFile);
+            }catch(e) {
+                alert(e);
+                setImage(undefined);
+                return;
+            }
         }
     }
 

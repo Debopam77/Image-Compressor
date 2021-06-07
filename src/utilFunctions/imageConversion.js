@@ -14,7 +14,7 @@ const compressImage = async (originalObj, imageOptions)=> {
         compressed = await imageCompression(file, options);
         compressed.fileName = file.fileName;
     }catch(e) {
-        alert(e);
+        throw new Error(e);
     }
     console.log(compressed);
     return {
