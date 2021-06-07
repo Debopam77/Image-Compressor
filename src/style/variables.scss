@@ -1,0 +1,25 @@
+:root {
+    --background-image: linear-gradient(to bottom, #f9f9f9, #f2f2f2, #ebebeb, #e5e5e5, #dedede);
+    --button-colour : #329DE0;
+    --button-light : #ffbc49;
+    --button-light-select : #F6B545;
+    --button-light-focus : #be7900;
+    --shadow-button-light : #f6b54588;
+    --light-color: #f8f5f1;
+    --text-dark-color: #333333;
+    --button-select: #3991d4;
+    --shadow-button : #55a6e4b0;
+    --shadow-grey : #6b6b6b6b;
+    --dark-grey : rgb(71, 71, 71);
+    --shadow-very-light : 0 4px 8px 0 rgba(0,0,0,0.1);
+    --shadow-light : 0 4px 8px 0 rgba(0,0,0,0.2);
+    --shadow-dark : 0 8px 16px 0 rgba(0,0,0,0.4);
+    --blank-image : url('../resources/generic.JPG');
+    --sunIcon : url('../resources/sun.png');
+    --moonIcon : url('../resources/moon.png');
+}
+
+[data-theme="dark"] {
+    --background-image: linear-gradient(to top, #151515, #1a191a, #1f1d1e, #242021, #2a2424);
+    --text-dark-color: #f8f5f1;
+}

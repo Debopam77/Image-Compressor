@@ -1,0 +1,32 @@
+/* Rounded sliders */
+
+.navbar {
+    display : flex;
+    margin : 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding : 1rem;
+}
+.navbar.rightSide {
+    display: flex;
+    justify-content: right;
+    width : 50%;
+}
+.navbar .leftSide {
+    width : 50%;
+}
+.navbar .leftSide .lightIcon {
+    height : 2rem;
+    width : 2rem;
+    background-image: var(--sunIcon);
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.navbar .leftSide .darkIcon{
+    height : 2rem;
+    width : 2rem;
+    background-image : var(--moonIcon);
+    background-size: cover;
+    transition: 0.4s;
+}
